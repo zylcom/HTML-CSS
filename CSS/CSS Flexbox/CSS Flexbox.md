@@ -53,6 +53,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![column](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-direction_column.png)
+
   Untuk mengatur flex item secara horizontal dengan arah dari kiri ke kanan
 
   ```css
@@ -60,6 +63,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     flex-direction: row;
   }
   ```
+
+  Result:
+  ![row](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-direction_row.png)
 
   Sama seperti row namun dengan arah sebaliknya
 
@@ -69,6 +75,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![row-reverse](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-direction_row-reverse.png)
+
   Sama seperti column namun dengan arah sebaliknya
 
   ```css
@@ -76,6 +85,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     flex-direction: column-reverse;
   }
   ```
+
+  Result:
+  ![column-reverse](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-direction_column-reverse.png)
 
 - `flex-wrap` - Untuk menentukan apakah flex item harus wrap atau tidak, jika tidak ada cukup ruang untuk mereka pada main axis.
 
@@ -89,6 +101,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![wrap](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-wrap_wrap.png)
+
   Flex item tidak akan wrap meskipun tidak ada cukup ruang di dalam container
 
   ```css
@@ -97,6 +112,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![nowrap](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-wrap_nowrap.png)
+
   Flex item akan wrap dengan arah yang sebaliknya
 
   ```css
@@ -104,6 +122,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     flex-wrap: wrap-reverse;
   }
   ```
+
+  Result:
+  ![wrap-reverse](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-wrap_wrap-reverse.png)
 
 - `flex-flow` - Shorthand untuk `flex-direction` dan `flex-wrap`.
 
@@ -136,6 +157,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![center](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/justify-content_center.png)
+
   Menyejajarkan flex item di awal main axis
 
   ```css
@@ -143,6 +167,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     justify-content: flex-start;
   }
   ```
+
+  Result:
+  ![flex-start](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/justify-content_flex-start.png)
 
   Menyejajarkan flex item di akhir main axis
 
@@ -152,6 +179,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![flex-end](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/justify-content_flex-end.png)
+
   Flex item akan memiliki ruang kosong diantara flex item
 
   ```css
@@ -159,6 +189,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     justify-content: space-between;
   }
   ```
+
+  Result:
+  ![space-between](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/justify-content_space-between.png)
 
   Flex item akan memiliki ruang kosong disekitarnya
 
@@ -168,13 +201,19 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![space-around](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/justify-content_space-around.png)
+
   Flex item akan memiliki ruang kosong disekitarnya dengan ukuran yang sama sesuai panjang main axis
 
   ```css
   .flex-container {
-    justify-content: space-evenly; /* */
+    justify-content: space-evenly;
   }
   ```
+
+  Result:
+  ![space-evenly](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/justify-content_space-evenly.png)
 
 - `align-items` - Untuk menyejajarkan flex item secara vertikal saat item tidak menggunakan semua ruang yang tersedia pada cross axis.
 
@@ -188,6 +227,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![center](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-items_center.png)
+
   Flex item akan diregangkan sesuai dengan panjang cross axis
 
   ```css
@@ -195,6 +237,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     align-items: stretch;
   }
   ```
+
+  Result:
+  ![stretch](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-items_stretch.png)
 
   Menyejajarkan flex item di awal cross axis
 
@@ -204,6 +249,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![flex-start](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-items_flex-start.png)
+
   Menyejajarkan flex item di akhir cross axis
 
   ```css
@@ -212,6 +260,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![flex-end](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-items_flex-end.png)
+
   Flex item akan diposisikan di garis dasar container
 
   ```css
@@ -219,6 +270,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     align-items: baseline;
   }
   ```
+
+  Result:
+  ![baseline](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-items_baseline.png)
 
 - `align-content` - Untuk memodifikasi perilaku properti flex-wrap. Hal ini mirip dengan align-item, tapi bukan untuk menyelaraskan flex item, melainkan untuk menyelaraskan garis flex.
 
@@ -232,6 +286,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![center](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_center.png)
+
   Garis meregang untuk mengambil ruang yang tersisa di container
 
   ```css
@@ -239,6 +296,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     align-content: stretch;
   }
   ```
+
+  Result:
+  ![stretch](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_stretch.png)
 
   Garis dikemas ke awal cross axis
 
@@ -248,6 +308,8 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  ![flex-star](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_flex-start.png)
+
   Garis dikemas ke akhir cross axis
 
   ```css
@@ -255,6 +317,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     align-content: flex-end;
   }
   ```
+
+  Result:
+  ![flex-end](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_flex-end.png)
 
   Garis didistribusikan secara merata di dalam container
 
@@ -264,6 +329,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![space-between](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_space-between.png)
+
   Garis didistribusikan secara merata di dalam container, dengan ruang setengah ukuran di kedua ujungnya
 
   ```css
@@ -272,6 +340,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
   }
   ```
 
+  Result:
+  ![space-around](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_space-around.png)
+
   Garis didistribusikan secara merata di dalam container, dengan ruang yang sama di sekelilingnya
 
   ```css
@@ -279,6 +350,9 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     align-content: space-evenly;
   }
   ```
+
+  Result:
+  ![space-evenly](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-content_space-evenly.png)
 
 ## Properti di Flex Item
 
@@ -308,6 +382,9 @@ Berikut adalah beberapa properti CSS yang ada di flex item:
   }
   ```
 
+  Result:
+  ![order](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/order.png)
+
 - `flex-grow` - Untuk menentukan seberapa banyak flex item akan tumbuh relatif terhadap flex item lainnya di dalam container yang sama.
 
   Contoh:
@@ -332,6 +409,9 @@ Berikut adalah beberapa properti CSS yang ada di flex item:
   }
   ```
 
+  Result:
+  ![flex-grow](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-grow.png)
+
 - `flex-shrink` - Untuk menentukan seberapa banyak flex item akan menyusut relatif terhadap flex item lainnya di dalam wadah yang sama.
 
   Contoh:
@@ -348,6 +428,9 @@ Berikut adalah beberapa properti CSS yang ada di flex item:
   }
   ```
 
+  Result:
+  ![flex-shrink](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-shrink.png)
+
 - `flex-basis` - Untuk menentukan panjang awal flex item.
 
   Contoh:
@@ -363,6 +446,9 @@ Berikut adalah beberapa properti CSS yang ada di flex item:
     flex-basis: 300px;
   }
   ```
+
+  Result:
+  ![flex-basis](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/flex-basis.png)
 
 - `flex` - Untuk shorthand properti flex-grow, flex-shrink, dan flex-basis.
 
@@ -418,6 +504,9 @@ Berikut adalah beberapa properti CSS yang ada di flex item:
     align-self: flex-end;
   }
   ```
+
+  Result:
+  ![align-self](https://raw.githubusercontent.com/zylcom/flexbox-img/main/images/align-self.png)
 
   ## Referensi
 
